@@ -1,0 +1,170 @@
+* body {
+    margin: 5%;   
+    padding: 8px; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #3f0069;
+}
+
+#agrupar {
+    width: 90%;
+    margin: 1 auto;
+    background: #976ddb;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(225, 131, 23, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header#cabecera {
+    width: 100%;
+    background: #61f8fd;
+    color:#010208;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header#cabecera h1 {
+    margin: 10;
+}
+
+header#cabecera nav ul {
+    list-style: none;
+    padding: 5;
+    margin: 10px 0;
+}
+
+header#cabecera nav ul li {
+    display:inline;
+    margin-right: 10px;
+}
+
+header#cabecera nav ul a {
+    color: #000000e4;
+    text-decoration: none;
+}
+
+header#cabecera form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+header#cabecera form input[type="text"] {
+    padding: 5px;
+    width: 5px;
+    width: 200px;
+}
+
+header#cabecera form input[type="sumbit"] {
+    padding: 5px;
+}
+
+#contenido {
+    flex: 3;
+    margin-right: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+article {
+    border-bottom: 1px mediumblue #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+article h3 {
+    color: #666;
+}
+
+.description img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ingredientes, .elaboracion {
+    margin-top: 10px;
+}
+
+.ingredientes h4, .elaboracion h4 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.ingredientes ul, .elaboracion ol {
+    margin-left: 20px;
+}
+
+.ingredientes {
+    border: 5px solid #3f0909;
+    padding: 4px;
+    margin:3px ;
+    border-radius: 2px;
+    background-color: #9199be;
+}
+.elaboracion p, .elaboracion ol {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.elaboracion {
+    border: 3px solid #080352;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    background-color: #4584f8;
+}
+
+/* Publicidad */
+aside#lateral {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+aside#lateral p {
+    font-weight: bold;
+}
+
+aside#lateral article {
+    margin-bottom: 10px;
+}
+
+aside#lateral article img {
+    max-width: 100%;
+    height: auto;
+}
+
+aside#lateral figure {
+    margin: 10;
+    text-align: center;
+}
+
+aside#lateral figcaption {
+    font-size: 0.9em;
+    color: #ffffff;
+}
+
+/* Pie de página */
+footer#pie {
+    width: 100%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer#pie p {
+    margin: 5px 0;
+}
+
